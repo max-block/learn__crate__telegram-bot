@@ -1,0 +1,10 @@
+[package]
+name = "learn__crate__telegram-bot"
+version = "0.1.0"
+authors = ["Max Block <maxblock@pm.me>"]
+edition = "2018"
+
+[dependencies]
+dotenv = "0.15.0"
+telegram-bot = "0.7.0"
+tokio = {version="0.2.22", features=["full"]}
